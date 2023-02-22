@@ -14,4 +14,4 @@ jobs:
           python wine_linear_regression_test.py
           cat metrics.txt
           cat metrics.txt >> report.md
-          cml-send-comment report.md
+          cml comment create report.md
